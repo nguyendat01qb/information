@@ -13,7 +13,7 @@ export default function AboutMe() {
       name: "Nguyen Van Dat",
       image: dat,
       desctiption:
-        "When he delivered my job, my head spinned, it was so nice and he implemented every functionality i requested for.",
+        "Backend development with Ruby On Rails framework and frontend development with React JS framework. Just need a computer, he can work anywhere",
       role: "FullStack MERN, Ruby On Rails",
       facebook: "https://www.facebook.com/neukhongthulamsaobietduoc",
     },
@@ -21,7 +21,7 @@ export default function AboutMe() {
       name: "Tran Huu Tho",
       image: htho,
       desctiption:
-        "When he delivered my job, my head spinned, it was so nice and he implemented every functionality i requested for.",
+        "Take charge of webapp development with React Native framework. Just need a computer, he can work anywhere.",
       role: "Android developer && React JS",
       facebook: "https://www.facebook.com/thientho.it",
     },
@@ -29,7 +29,7 @@ export default function AboutMe() {
       name: "Tran Nhat Truong Tho",
       image: ttho,
       desctiption:
-        "When he delivered my job, my head spinned, it was so nice and he implemented every functionality i requested for.",
+        "Backend development with Ruby On Rails framework and frontend development with Vue JS framework. Just need a computer, he can work anywhere.",
       role: "Developer Ruby On Rails",
       facebook: "https://www.facebook.com/profile.php?id=100013668392118",
     },
@@ -37,7 +37,7 @@ export default function AboutMe() {
       name: "Nguyen Van Tung",
       image: tung,
       desctiption:
-        "When he delivered my job, my head spinned, it was so nice and he implemented every functionality i requested for.",
+        "Backend development with Ruby On Rails framework and frontend development with React JS framework. Just need a computer, he can work anywhere.",
       role: "Developer Ruby On Rails",
       facebook: "https://www.facebook.com/map.tung.9",
     },

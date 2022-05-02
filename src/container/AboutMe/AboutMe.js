@@ -32,7 +32,7 @@ export default function AboutMe() {
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>
-                <span>React and React Native</span>
+                <span>React JS && Vue JS</span>
               </div>
               <div className="highlight">
                 <div className="highlight-blob"></div>

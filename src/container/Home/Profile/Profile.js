@@ -47,7 +47,7 @@ export default function Profile() {
                     1000,
                     "MERN Stack Dev",
                     1000,
-                    "React/React Native Dev",
+                    "React Dev",
                     1000,
                     "Vue Dev",
                     1000,
@@ -67,7 +67,10 @@ export default function Profile() {
             {/* <a href="#" download="">
               <button className="btn highlighted-btn">Get Resume</button>
             </a> */}
-            <a href="#">
+            <a
+              target="_blank"
+              href="https://www.topcv.vn/xem-cv/BlcGCVJbDlIFA1oNVg5fUFdSCldSDFFSXAEKXA4af4"
+            >
               <button className="btn highlighted-btn">My CV</button>
             </a>
           </div>

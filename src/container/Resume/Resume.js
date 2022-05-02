@@ -11,6 +11,7 @@ export default function AboutMe() {
     "Programming Skills",
     "Projects",
     "Interests",
+    "Certificate",
   ];
 
   useEffect(() => {
@@ -28,6 +29,9 @@ export default function AboutMe() {
             break;
           case 4:
             setSty("translateY(-1440px)");
+            break;
+          case 5:
+            setSty("translateY(-1800px)");
             break;
           default:
             setSty("translateY(0px)");
@@ -81,7 +85,7 @@ export default function AboutMe() {
     },
     {
       name: "Ruby On Rails",
-      percent: "50%",
+      percent: "93%",
     },
     {
       name: "HTML & CSS",
@@ -141,6 +145,29 @@ export default function AboutMe() {
     {
       name: "Backpacking",
       content: "Finding new lands, seeing the scenery helps me relax my mind.",
+    },
+  ];
+
+  const certificates = [
+    {
+      name: "F8 HTML & CSS",
+      link: "https://fullstack.edu.vn/cert/dbmus",
+    },
+    {
+      name: "F8 Responsive Web Design",
+      link: "https://fullstack.edu.vn/cert/idh0d",
+    },
+    {
+      name: "F8 JavaScript Basic",
+      link: "https://fullstack.edu.vn/cert/o9ves",
+    },
+    {
+      name: "F8 JavaScript Advanced",
+      link: "https://fullstack.edu.vn/cert/rcefa",
+    },
+    {
+      name: "F8 Node & ExpressJS",
+      link: "https://fullstack.edu.vn/cert/fl61z",
     },
   ];
   return (
@@ -277,6 +304,19 @@ export default function AboutMe() {
                     </div>
                     <div className="resume-heading-description">
                       <span>{interest.content}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="resume-screen-container">
+                {certificates.map((certificate) => (
+                  <div className="resume-heading">
+                    <div className="resume-main-heading">
+                      <div className="heading-bullet"></div>
+                      <a href={certificate.link} target="_blank">
+                        {certificate.name}
+                      </a>
                     </div>
                   </div>
                 ))}
